@@ -3,11 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Website</title>
+  <title>Cybersecurity Learning Resources for Beginners</title>
+  <meta name="description" content="Explore beginner cybersecurity learning resources, hands-on practice, and trusted career guidance to build your skills and plan your next learning step.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#10243a">
+  <style>
+    :root { color-scheme: light; --navy:#10243a; --blue:#176b87; --pale:#eef6f8; --ink:#203040; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); line-height:1.65; background:#f7fafc; }
+    header { background:var(--navy); color:white; padding:2.5rem 1rem; text-align:center; }
+    header p { max-width:680px; margin:0.6rem auto 0; }
+    main { width:min(900px, 92%); margin:2rem auto; }
+    .hero-image { display:block; width:100%; max-height:260px; object-fit:cover; border-radius:14px; margin:1rem 0 1.5rem; }
+    .resource { background:white; padding:1.2rem 1.3rem; margin:1rem 0; border-radius:12px; border:1px solid #dbe7ec; }
+    .resource h2 { margin-top:0; font-size:1.2rem; }
+    a { color:#075e7a; text-underline-offset:3px; overflow-wrap:anywhere; }
+    a:focus, a:hover { outline-offset:3px; text-decoration-thickness:2px; }
+    footer { text-align:center; padding:1.5rem 1rem; color:#526575; font-size:.9rem; }
+    @media (max-width:600px) { header { padding:1.8rem 1rem; } h1 { font-size:1.7rem; } main { width:92%; } .resource { padding:1rem; } }
+  </style>
 </head>
 <body>
-https://tryhackme.com/beginner-path
-https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/getting-started
-https://www.cisa.gov/resources-tools/programs/cybersecurity-education-career-development
+  <header>
+    <h1>Cybersecurity Learning Resources for Beginners</h1>
+    <p>Start learning cybersecurity with trusted guides, beginner-friendly practice, and career information.</p>
+  </header>
+  <main>
+    <img class="hero-image"
+      src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+      alt="Digital cybersecurity illustration showing a glowing digital lock and network connections">
+    <p>This page collects useful cybersecurity learning links for students and beginners. Read the guides and practise only in legal, authorised learning environments.</p>
+    <section class="resource">
+      <h2><a href="https://tryhackme.com/beginner-path" target="_blank" rel="noopener noreferrer">TryHackMe: Beginner Cybersecurity Learning Path</a></h2>
+      <p>Useful because it gives beginners a guided route into cybersecurity concepts and interactive practice.</p>
+    </section>
+    <section class="resource">
+      <h2><a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/getting-started" target="_blank" rel="noopener noreferrer">NIST: Getting Started with the NICE Framework</a></h2>
+      <p>Useful because it explains how cybersecurity tasks, knowledge, and skills relate to work roles and career planning.</p>
+    </section>
+    <section class="resource">
+      <h2><a href="https://www.cisa.gov/resources-tools/programs/cybersecurity-education-career-development" target="_blank" rel="noopener noreferrer">CISA: Cybersecurity Education and Career Development</a></h2>
+      <p>Useful because it points learners toward cybersecurity education, training, and career-development information.</p>
+    </section>
+  </main>
+  <footer><p>Learning resources for educational use. Always practise cybersecurity legally and with permission.</p></footer>
 </body>
 </html>
+
